@@ -1,10 +1,25 @@
 # Import necessary libraries
+import matplotlib
+matplotlib.use('Agg')  # Set backend to Agg (non-interactive backend)
+import matplotlib.pyplot as plt
+
 import streamlit as st
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow_probability as tfp
 import tensorflow as tf
+# Import necessary libraries
+import streamlit as st
+import pandas as pd
+import numpy as np
+import matplotlib
+matplotlib.use('Agg')  # Set backend to Agg (non-interactive backend)
+import matplotlib.pyplot as plt
+import tensorflow_probability as tfp
+import tensorflow as tf
+
+
 
 # Set up tensorflow probability and STS
 tf.enable_v2_behavior()
